@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+*{
+    padding: 0%;
+    top: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+   
+}
+
+.header{
+    margin-top: 0%;
+    display: flex;
+    float: right;
+    width: 100%;
+    height: 150px;
+    background-color: #5ABF60;
+    position: fixed;
+}
+
+.header ul{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 630px;
+}
+.header li{
+    margin-left: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor{
+    background: url(/images/owen-lystrup-boLgiM0qwkg-unsplash1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contenedor1{
+    background: url(/images/ballena1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.edificios{
+    background: url(/images/owen-lystrup-boLgiM0qwkg-unsplash1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.texto{
+    width: 75%;
+    margin-left: 10px;
+    margin-top: 300px;
+    float: left;
+    display: flex;
+    color: #dbf9d8f1;
+    font-size: 140px;
+    font-family: 'Anton', sans-serif;
+}
+.edificios1{
+    background: url(/images/ballena1.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.texto1{
+    width: 75%;
+    margin-left: 250px;
+    margin-top: 230px;
+    float: left;
+    display: flex;
+    color: #dbf9d8d7;
+    font-size: 200px;
+    font-family: 'Anton', sans-serif;
+}
+
+.texto2{
+    width: 1700px;
+    margin-left: 80px;
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+}
+.texto2 h1{
+    margin-top: 50px;
+    margin-left: 260px;
+    height: 150px;
+    width: 1200px;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Antonio', sans-serif;
+    color: #009285;
+}
+
+.p0{
+    float: left;
+    display: flex;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 70px;
+    text-align: justify;
+}
+.p00{
+    margin-top: 15px;
+    float: left;
+    display: flex;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.p01{
+    float: left;
+    display: flex;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.texto2 img{
+    margin-left: 70px;
+}
+.p1{
+    display: flex;
+    width: 600px;
+    float: right;
+    margin-right: 150px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.segunda{
+    margin-top: 50px;
+    width: 1700px;
+    margin-left: 80px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+}
+    .segunda h1{
+        margin-top: 50px;
+        margin-left: 260px;
+        height: 150px;
+        width: 1200px;
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Antonio', sans-serif;
+        color: #009285;
+    }
+
+    .list{
+        display: flex;
+        float: left;
+        font-size: 20px;
+        width: 90%;
+        margin-left: 70px;
+        text-align: justify;
+    }
+
+    .tercera{
+        margin-top: 50px;
+        width: 1700px;
+        margin-left: 80px;
+        height: 85vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .tercera h1{
+        margin-top: 50px;
+        margin-left: 260px;
+        height: 150px;
+        width: 1200px;
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Antonio', sans-serif;
+        color: #009285;
+    }
+
+    .tercera1{
+        margin-top: 50px;
+        width: 1700px;
+        margin-left: 80px;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .tercera1 h1{
+        margin-top: 50px;
+        margin-left: 260px;
+        height: 150px;
+        width: 1200px;
+        float: left;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Antonio', sans-serif;
+        color: #009285;
+    }

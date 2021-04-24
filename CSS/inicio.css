@@ -1,0 +1,73 @@
+html{
+    font-size:62.5%;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+}
+/*Header*/
+#header{
+    background: #000a;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+/*Nav*/
+.nav{
+    width: 100%;
+    height: 80px;
+}
+.nav__ul{
+    width: inherit;
+    height: 100%;
+    display: grid;
+    grid-template: 80px / repeat(4,25%);
+}
+.nav__ul-li{
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+.nav__ul-li:hover{
+    background: rgb(112, 173, 46);
+}
+.nav__ul-li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Seccion principal*/
+.principal{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../images/InfraestructuraOceano.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    pointer-events: none;
+    user-select: none;
+}
+h1{
+    font-size: 8rem;
+    position: absolute;
+    color: #eee;
+    text-shadow: 3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000,3px 3px #000;
+
+}
